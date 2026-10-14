@@ -78,22 +78,12 @@ export default function Hero() {
           <Image
             src="/fst-logo.png"
             alt="FST Global"
-            width={280}
-            height={280}
-            className="mx-auto mb-6 h-36 w-36 sm:h-48 sm:w-48"
+            width={480}
+            height={480}
+            className="mx-auto mb-6 h-56 w-56 sm:h-72 sm:w-72 md:h-80 md:w-80"
             priority
           />
         </motion.div>
-
-        <motion.span
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.1 }}
-          className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-foreground-dim backdrop-blur-sm"
-        >
-          <span className="h-1.5 w-1.5 rounded-full bg-accent-light" />
-          Launching Soon
-        </motion.span>
 
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
