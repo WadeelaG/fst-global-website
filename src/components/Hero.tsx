@@ -102,8 +102,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.32 }}
           className="mx-auto mt-6 max-w-lg text-base text-foreground-dim sm:text-lg"
         >
-          FST Global is bringing trade-priced tyres, alloy wheels and expert
-          fitting online. Be first to know when we go live.
+          Be first to know when we go live.
         </motion.p>
 
         <motion.div

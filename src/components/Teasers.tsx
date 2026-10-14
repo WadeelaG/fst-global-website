@@ -10,7 +10,7 @@ const ITEMS = [
     img: "/images/hero-tire.jpg",
   },
   {
-    title: "Alloy Wheels",
+    title: "Wheels",
     copy: "Staggered fits and custom finishes for everyday cars and performance builds.",
     img: "/images/alloy-wheel.jpg",
   },
