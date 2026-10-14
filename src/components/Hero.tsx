@@ -78,9 +78,9 @@ export default function Hero() {
           <Image
             src="/fst-logo.png"
             alt="FST Global"
-            width={120}
-            height={120}
-            className="mx-auto mb-6 h-20 w-20 sm:h-24 sm:w-24"
+            width={280}
+            height={280}
+            className="mx-auto mb-6 h-36 w-36 sm:h-48 sm:w-48"
             priority
           />
         </motion.div>
@@ -101,9 +101,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-display text-5xl font-semibold uppercase leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl"
         >
-          Premium Tyres
+          Coming
           <br />
-          <span className="text-accent-light">&amp; Wheels.</span>
+          <span className="text-accent-light">Soon.</span>
         </motion.h1>
 
         <motion.p
